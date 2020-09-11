@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\LoginController;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login/link/{uid}', 'Auth\LoginController@sendLink')->name('login-link');
+Route::get('/login/link/{uid}', [LoginController::class, 'sendLink'])->name('login-link');
 
 Route::get(config('laravel-passwordless-login.login_route').'/{expires}/{uid}', function (Request $request) {
     abort_if(!$request->hasValidSignature(), 401);
