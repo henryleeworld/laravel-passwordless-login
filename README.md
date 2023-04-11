@@ -1,4 +1,4 @@
-# Laravel 8 免密碼登入
+# Laravel 10 免密碼登入
 
 引入 grosv 的 laravel-passwordless-login 套件來擴增提供登入使用者的暫時簽名路由，利用提供的連結來進行登入。
 
@@ -26,8 +26,8 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/vIElpxV.png)
+![](https://i.imgur.com/0HOdt0N.png)
 > 產生登入連結
 
-![](https://i.imgur.com/fYHu6Pa.png)
+![](https://i.imgur.com/WKMaqTN.png)
 > 複製連結並貼到瀏覽器上進入即可登入

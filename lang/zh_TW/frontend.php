@@ -12,7 +12,6 @@ return [
         'content' => [
             'and'                                                      => ' 和 ',
             'and_more'                                                 => ' 和更多',
-            'build'                                                    => '建置',
             'cashier'                                                  => 'Cashier',
             'comma'                                                    => '、',
             'covering_every_aspect_of_the_framework'                   => 'Laravel 有詳盡的文件，涵蓋了框架的各個方面。無論您是框架的新手還是有 Laravel 的從業經驗，我們建議從頭到尾閱讀所有文件。',
@@ -30,16 +29,15 @@ return [
             'laravel_news_is_a_community_driven_portal_and_newsletter' => 'Laravel 新聞是社區驅動的入口和新聞通訊，匯總了 Laravel 生態系統中的所有最新和最重要的新聞，包括新的軟體套件版本和教程。',
             'nova'                                                     => 'Nova',
             'sanctum'                                                  => 'Sanctum',
-            'shop'                                                     => '店',
             'sponsor'                                                  => '贊助',
             'telescope'                                                => 'Telescope',
             'vapor'                                                    => 'Vapor',
-            'vapor'                                                    => 'Vibrant 生態系統',
+            'vibrant_ecosystem'                                        => 'Vibrant 生態系統',
         ],
     ],
     'home' => [
-        'title' => '首頁',    ],
-
+        'title' => '首頁',
+    ],
     'login' => [
         'title' => '登入',
     ],

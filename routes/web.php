@@ -10,14 +10,10 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::get('/login/link/{uid}', [LoginController::class, 'sendLink'])->name('login-link');
 
@@ -28,3 +24,7 @@ Route::get(config('laravel-passwordless-login.login_route').'/{expires}/{uid}', 
         ->login($user_model::find($request->uid), 'laravel-passwordless-login.remember_login');
     return redirect(config('laravel-passwordless-login.redirect_on_success'));
 })->name(config('laravel-passwordless-login.login_route_name'));
+
+Route::get('/', function () {
+    return view('welcome');
+});

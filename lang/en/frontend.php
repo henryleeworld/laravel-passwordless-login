@@ -12,7 +12,6 @@ return [
         'content' => [
             'and'                                                      => ', and ',
             'and_more'                                                 => ', and more.',
-            'build'                                                    => 'Build',
             'cashier'                                                  => 'Cashier',
             'comma'                                                    => ', ',
             'covering_every_aspect_of_the_framework'                   => 'Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.',
@@ -30,16 +29,15 @@ return [
             'laravel_news_is_a_community_driven_portal_and_newsletter' => 'Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.',
             'nova'                                                     => 'Nova',
             'sanctum'                                                  => 'Sanctum',
-            'shop'                                                     => 'Shop',
             'sponsor'                                                  => 'Sponsor',
             'telescope'                                                => 'Telescope',
             'vapor'                                                    => 'Vapor',
-            'vibrant_ecosystem'                                        => 'Vibrant 生態系統',
+            'vibrant_ecosystem'                                        => 'Vibrant Ecosystem',
         ],
     ],
     'home' => [
-        'title' => 'Home',    ],
-
+        'title' => 'Home',
+    ],
     'login' => [
         'title' => 'Login',
     ],
