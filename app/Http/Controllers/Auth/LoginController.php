@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use Grosv\LaravelPasswordlessLogin\Models\User;
+use App\Models\User;
 use Grosv\LaravelPasswordlessLogin\PasswordlessLogin;
 use Illuminate\Http\Request;
 
